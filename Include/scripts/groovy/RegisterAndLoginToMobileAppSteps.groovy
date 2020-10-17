@@ -50,7 +50,7 @@ class RegisterAndLoginToMobileAppSteps {
 	@Given("User opens the app")
 	def openTheApp() {
 		
-		Mobile.startApplication('C:\\Users\\aa35xzz\\Katalon Studio\\TestMobileAutomation\\LoginApp.apk', false)
+		Mobile.startApplication('LoginApp.apk', false)
 	}
 	
 	
